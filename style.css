@@ -2,12 +2,45 @@
     background-color: #1F2937;
 }
 
+.hero-main {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.hero-second {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.right-links {
+    
+}
+
 .content{
     background-color: white;
 }
 
+.info-header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937
+}
+
 .quote-container {
     background-color: #E5E7EB;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-cite {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
 }
 
 .action-call-container {
@@ -28,4 +61,15 @@
 
 .footer {
     background-color: #1F2937;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
 }
