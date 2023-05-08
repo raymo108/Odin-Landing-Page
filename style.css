@@ -1,0 +1,31 @@
+.header {
+    background-color: #1F2937;
+}
+
+.content{
+    background-color: white;
+}
+
+.quote-container {
+    background-color: #E5E7EB;
+}
+
+.action-call-container {
+    background-color: white;
+}
+
+.action-call {
+    background-color: #3882F6;
+}
+
+.action-second {
+    background-color: #3882F6;
+}
+
+.buttons {
+    background-color: #3882F6;
+}
+
+.footer {
+    background-color: #1F2937;
+}
