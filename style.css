@@ -71,3 +71,34 @@ button {
     color: #E5E7EB;
     border-radius: 5px;
 }
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    padding-top: 30px;   
+    padding-bottom: 80px;
+}
+
+.content-container{
+    display: flex;
+    padding: 20px;
+    justify-content: space-evenly;
+}
+
+.content .content-container img {
+    width: 12%;
+    height: 15%;
+    border: 5px solid #3882F6;
+    border-radius: 5px;
+}
+
+.content .image-info {
+    display: flex;
+    gap: 340px;  
+}
+
+.logo-text {
+    font-size: 18px;
+    color: grey;
+}
