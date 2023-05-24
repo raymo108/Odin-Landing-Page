@@ -146,6 +146,7 @@ button {
     align-items: center;
     gap: 65px;
     padding: 20px;
+    border-radius: 5px;
     
 }
 
