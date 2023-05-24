@@ -23,7 +23,7 @@ header img {
 
 .right-links {
     display: flex;
-    gap: 12px;
+    gap: 22px;
     margin-right: 200px;
 }
 
@@ -70,6 +70,7 @@ button {
     background-color: #3882F6;
     color: #E5E7EB;
     border-radius: 5px;
+    padding: 6px;
 }
 
 .content {
@@ -83,7 +84,8 @@ button {
 .content-container{
     display: flex;
     padding: 20px;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 100px;
 }
 
 .content .content-container img {
@@ -95,10 +97,77 @@ button {
 
 .content .image-info {
     display: flex;
-    gap: 340px;  
+    justify-content: center;
+    gap: 265px;
 }
 
 .logo-text {
     font-size: 18px;
     color: grey;
+}
+
+.content h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.quote-container {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+}
+
+.quote-container .quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-container .quote-cite {
+    font-weight: bold;
+    font-size: 18px;
+    color: #1F2937;
+    align-self: flex-end;
+    margin-right: 400px;
+}
+
+.action-call-container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 65px;
+    padding: 20px;
+    
+}
+
+.action-call-container .left {
+    display: flex;
+    flex-direction: column;
+    color: #E5E7EB;
+    font-weight: bold;
+}
+
+.right-align .buttons {
+    flex-shrink: 0;
+    border: 2px solid #E5E7EB;
+    border-radius: 5px;
+    padding: 6px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 25px;
 }
